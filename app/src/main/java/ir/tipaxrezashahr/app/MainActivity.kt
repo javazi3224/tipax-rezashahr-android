@@ -198,7 +198,7 @@ class MainActivity : AppCompatActivity() {
                     setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED)
                     setDestinationInExternalPublicDir(Environment.DIRECTORY_DOWNLOADS, fileName)
                     setTitle(fileName)
-                    setAllowedOverMeteredNetwork(true)
+                    setAllowedOverMetered(true)
                 }
                 val dm = getSystemService(Context.DOWNLOAD_SERVICE) as DownloadManager
                 dm.enqueue(request)
