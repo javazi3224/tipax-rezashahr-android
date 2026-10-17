@@ -1,0 +1,6 @@
+// فایل گریدل سطح پروژه - فقط نسخه‌ی پلاگین اندروید/کاتلین رو مشخص می‌کنه،
+// وابستگی واقعی‌ای اینجا نیست (همه تو app/build.gradle).
+plugins {
+    id 'com.android.application' version '8.5.2' apply false
+    id 'org.jetbrains.kotlin.android' version '1.9.24' apply false
+}

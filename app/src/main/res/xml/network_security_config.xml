@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- سایت فقط HTTP داره (بدون HTTPS)، پس باید صریحاً ترافیک cleartext رو
+     برای همین دامنه مجاز کنیم؛ وگرنه اندروید ۹ به بعد به‌طور پیش‌فرض
+     بلاکش می‌کنه. اگه بعداً سایت HTTPS شد، این بخش دیگه لازم نیست. -->
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">tipaxrezashahr.ir</domain>
+        <domain includeSubdomains="true">85.198.51.13</domain>
+    </domain-config>
+</network-security-config>

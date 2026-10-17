@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">تیپاکس رضاشهر</string>
+    <string name="no_internet">اتصال اینترنت برقرار نیست. دوباره امتحان کن.</string>
+    <string name="retry">تلاش دوباره</string>
+</resources>
